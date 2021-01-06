@@ -47,6 +47,7 @@ wget -O os-env.sh https://git.io/JLN4h
 sh os-env.sh
 rm os-env.sh
 exit
-umount -R /mnt
+umount -l /mnt/gentoo/dev{/shm,/pts,}
+umount -R /mnt/gentoo
 reboot
 ```
