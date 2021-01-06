@@ -25,19 +25,19 @@ Here are my arch and gentoo install scripts. They run one time without any input
   - `sys-boot/grub:2`
   
   Feel free to change any of the scripts to suit your needs if the above do not fit your needs
-  ## Install
-  ### Arch
-  After logging on to the Arch ISO, run the following:
- ```bash
- wget -O live-env.sh https://git.io/JLNRS
- sh live-env.sh
- wget -O os-env.sh https://git.io/JLNR5
- sh os-env.sh
- rm os-env.sh
- exit
- umount -R /mnt
- reboot
- ```
+## Install
+### Arch
+After logging on to the Arch ISO, run the following:
+```bash
+wget -O live-env.sh https://git.io/JLNRS
+sh live-env.sh
+wget -O os-env.sh https://git.io/JLNR5
+sh os-env.sh
+rm os-env.sh
+exit
+umount -R /mnt
+reboot
+```
 ### Gentoo
 After logging on to your preferred installation environment, run the following:
 ```bash
