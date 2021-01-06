@@ -24,7 +24,7 @@ Here are my arch and gentoo install scripts. They run one time without any input
   - `net-misc/dhcpcd`
   - `sys-boot/grub:2`
   
-  Feel free to change any of the scripts to suit your needs if the above do not fit your needs
+  Feel free to change any of the scripts to suit your needs
 ## Install
 ### Arch
 After logging on to the Arch ISO, run the following:
