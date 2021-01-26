@@ -23,6 +23,7 @@ Here are my arch and gentoo install scripts. They run one time without any input
   - `sys-apps/mlocate`
   - `net-misc/dhcpcd`
   - `sys-boot/grub:2`
+- `make.conf` uses `skylake` for micro-architecture
   
   Feel free to change any of the scripts to suit your needs
 ## Install
