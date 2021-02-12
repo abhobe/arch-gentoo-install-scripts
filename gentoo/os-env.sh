@@ -3,14 +3,14 @@ export PS1="(chroot) ${PS1}"
 mount /dev/sda1 /boot
 emerge-webrsync
 eselect profile list
-eselect profile set 8
+eselect profile set 1
 emerge --verbose --update --deep --newuse @world
 echo "America/Los_Angeles" > /etc/timezone
 emerge --config sys-libs/timezone-data
 echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
 locale-gen
 eselect locale list
-eselect locale set 3
+eselect locale set 4
 env-update && source /etc/profile && export PS1="(chroot) ${PS1}"
 emerge sys-kernel/gentoo-sources
 emerge sys-kernel/installkernel-gentoo
