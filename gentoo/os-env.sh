@@ -16,9 +16,9 @@ emerge sys-kernel/gentoo-sources
 emerge sys-kernel/installkernel-gentoo
 emerge sys-kernel/gentoo-kernel-bin
 emerge sys-kernel/linux-firmware
+nano -w /etc/fstab
 nano -w /etc/conf.d/hostname
 emerge --noreplace net-misc/netifrc
-echo 'config_enp0s3="dhcp"' >> /etc/conf.d/net
 cd /etc/init.d
 ln -s net.lo net.enp0s3
 rc-update add net.enp0s3 default
