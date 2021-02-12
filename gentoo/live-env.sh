@@ -5,8 +5,8 @@ mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt/gentoo
 wget https://raw.githubusercontent.com/abhobe/arch-gentoo-install-scripts/master/gentoo/make.conf
 cd /mnt/gentoo
-wget https://bouncer.gentoo.org/fetch/root/all/releases/amd64/autobuilds/20210103T214503Z/stage3-amd64-20210103T214503Z.tar.xz
-tar xpvf stage3-amd64-20210103T214503Z.tar.xz --xattrs-include='*.*' --numeric-owner
+links
+tar xpvf stage3-amd64* --xattrs-include='*.*' --numeric-owner
 mv /mnt/gentoo/etc/portage/make.conf /mnt/gentoo/etc/portage/make.conf.orig
 cp /root/make.conf /mnt/gentoo/etc/portage/make.conf
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
